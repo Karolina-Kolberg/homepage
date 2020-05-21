@@ -1,0 +1,39 @@
+body{
+    background: #fefefe;
+}
+
+section{
+    background:#eceaea;
+}
+
+
+h1{
+    color:#313030;
+}
+p{
+    color:#446474;
+}
+h2{
+    color:#4F6367;
+    background:#CFDBD5;
+}
+h3{
+    color:#3C493F;
+}
+.crayola-header{
+    color:#1F363D;
+}
+#top{
+    background:#93A8AC;
+}
+
+a{
+    color:#D3BCCC;
+}
+
+.header-link {
+    color:#B48291;
+}
+footer{
+    color:#576066;
+}
