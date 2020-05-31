@@ -1,62 +1,77 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav>
-            <a class="header-link" href="index.html">Strona glowna</a>
-            <a class="header-link" href="nauka-html.html">Nauka html</a>
-            <a class="header-link" href="nauka-css.html">Nauka css</a>
-        </nav>
+      <nav class="navigation">
+        <a class="navigation_link navigation_link--homepage" href="index.html">Strona glowna</a>
+        <a class="navigation_link" href="nauka-html.html">Nauka html</a>
+        <a class="navigation_link" href="nauka-css.html">Nauka css</a>
+      </nav>
     </header>
     <main>
-        <header id="top">
-            <h1>Karolina Kolberg</h1>
-        </header>
+      <header id="top">
+        <h1 class="main-heading main-heading--js" id="name">
+            Karolina Kolberg</h1>
+      </header>
 
-        <section>
-            <h2 class="crayola-header">Kim jestem?</h2>
-            <img src="Karolina.jpeg" alt="/Ja">
-            <p> Z wykształcenia jestem biotechnologiem farmacji. Z doswiadczenia Specjalistą ds.Analityki <br/>
-                Obecnie przez większość czasu zajmuję sie dwójką małych bąbelków, a w wolnych chwilach maluje i praktykuję jogę. Obecnie korzystam z lekcji online w <a href="https://studio.portalyogi.pl">Internetowym Studio Yogi.</a><br/>
-                Dodatkowo zaczełam kurs online "WTF: Co ten Frontend?" i  najwaniejsze informacje zapisuje na tej stronie internetowej. <a href="#notatki">Przejdz do notatek.</a></p>
-        </section>
+      <section>
+        <h2 class="crayola-header">Kim jestem?</h2>
+        <img src="Karolina.jpeg" alt="/Ja" />
+        <p>
+          Z wykształcenia jestem biotechnologiem farmacji. Z doswiadczenia
+          Specjalistą ds.Analityki <br />
+          Obecnie przez większość czasu zajmuję sie dwójką małych bąbelków, a w
+          wolnych chwilach maluje i praktykuję jogę. Obecnie korzystam z lekcji
+          online w
+          <a href="https://studio.portalyogi.pl">Internetowym Studio Yogi.</a
+          ><br />
+          Dodatkowo zaczełam kurs online "WTF: Co ten Frontend?" i najwaniejsze
+          informacje zapisuje na tej stronie internetowej.
+          <a href="#notatki">Przejdz do notatek.</a>
+        </p>
+      </section>
 
-        <section id="notatki">
-            <h2 class="crayola-header"> Notaki z kursu WTF.</h2>
+      <section id="notatki">
+        <h2 class="crayola-header">Notaki z kursu WTF.</h2>
 
-            <article>
-                <h3>Jak tworzę notatki?</h3>
-                <p>Notatki piszę odręcznie w zeszycie. Podczas oglądania lekcji zapisuje najwazniejsze informację, aby w
-                    kazdej chwili mozna było łatwo do nich wrocic.</p>
-            </article>
+        <article>
+          <h3>Jak tworzę notatki?</h3>
+          <p>
+            Notatki piszę odręcznie w zeszycie. Podczas oglądania lekcji
+            zapisuje najwazniejsze informację, aby w kazdej chwili mozna było
+            łatwo do nich wrocic.
+          </p>
+        </article>
 
-            <article>
-                <h3>Notatki tydzień pierwszy.</h3>
-                <p>W pierwszym tygodniu dowiedzialam się co to jest ten frontend. Poznalam 3 technologie budowy strony
-                    oraz zrobiłam pierwsze kroki w programie Visual Studio Code.</p>
-            </article>
+        <article>
+          <h3>Notatki tydzień pierwszy.</h3>
+          <p>
+            W pierwszym tygodniu dowiedzialam się co to jest ten frontend.
+            Poznalam 3 technologie budowy strony oraz zrobiłam pierwsze kroki w
+            programie Visual Studio Code.
+          </p>
+        </article>
 
-            <article>
-                <h3>Notatki tydzień drugi.</h3>
-                <p>W drugim tygodniu poznalam blizej HTML oraz napisalam swoj wlasny kod w tym języku.</p>
-            </article>
-
-        </section>
+        <article>
+          <h3>Notatki tydzień drugi.</h3>
+          <p>
+            W drugim tygodniu poznalam blizej HTML oraz napisalam swoj wlasny
+            kod w tym języku.
+          </p>
+        </article>
+      </section>
     </main>
     <footer>
-        Strona domowa Karoliny Kolberg. Jest ona utworzona w celach edukacyjnych.
-        <a href="#top">Wróć na góre strony.</a>
+      Strona domowa Karoliny Kolberg. Jest ona utworzona w celach edukacyjnych.
+      <a href="#top">Wróć na góre strony.</a>
     </footer>
-    <script src="main.js">
-    </script>
-</body>
-
+    <script src="main.js"></script>
+  </body>
 </html>

@@ -37,3 +37,16 @@ a{
 footer{
     color:#576066;
 }
+.navigation{
+    background:#8f8686;
+    padding: 16px;
+    border-radius: 8px;
+}
+.navigation_link{
+    color:#ffffff;
+    display: inline-block;
+    margin-right: 20px;
+}
+.navigation_link--homepage{
+    color: greenyellow;
+}
