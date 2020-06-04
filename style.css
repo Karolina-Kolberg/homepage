@@ -50,3 +50,8 @@ footer{
 .navigation_link--homepage{
     color: greenyellow;
 }
+
+.main{
+   max-width: 1000px;
+   margin: 0 auto;
+}
