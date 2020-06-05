@@ -17,7 +17,7 @@ h2{
     color:#4F6367;
     background:#CFDBD5;
 }
-h3{
+h4{
     color:#3C493F;
 }
 .crayola-header{
@@ -36,6 +36,7 @@ a{
 }
 footer{
     color:#576066;
+
 }
 .navigation{
     background:#8f8686;
@@ -48,10 +49,84 @@ footer{
     margin-right: 20px;
 }
 .navigation_link--homepage{
-    color: greenyellow;
+    color:rgb(253, 191, 210);
 }
 
 .main{
    max-width: 1000px;
    margin: 0 auto;
+}
+.main_heading{
+    color:rgb(31, 54, 61);
+}
+
+.about{
+
+}
+.about_heading{
+    color:#4F6367;
+    background:#CFDBD5;
+}
+.about_description{
+    color:#446474;
+}
+.about_link{
+    color:#B48291;
+}
+
+.notes{
+
+}
+.notes_heading{
+    color:#4F6367;
+    background:#CFDBD5;
+}
+
+.notes-creation{
+
+}
+.notes-creation_title{
+    color:rgb(46, 83, 94);
+}
+.notes-creation_description{
+    color:#446474;
+}
+
+.weeks{
+
+}
+.weeks_title{
+    color:rgb(46, 83, 94);
+}
+.weeks_description{
+    color:#446474;
+}
+
+.footer{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.footer_link{
+    color:#B48291;
+}
+
+.lesson{
+
+}
+.lesson_heading{
+    color:#4F6367;
+    background:#CFDBD5;
+}
+.lessson_description{
+    color:#446474;
+}
+
+.lesson-favorite{
+
+}
+.lesson-favorite_number{
+    color:rgb(46, 83, 94);
+}
+.lesson-favorite_description{
+    color:#446474;
 }
