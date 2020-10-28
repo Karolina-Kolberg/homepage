@@ -1,240 +1,264 @@
 html {
-    box-sizing: border-box;
-  }
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
-
-body{
-    background-color: #406563;
-    background-image: linear-gradient(135deg, #406563 0%, #638885 24%, #abb3b3 66%, #ffffff 100%);
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
-section{
-    background:#eceaea;
+body {
+  background-color: #406563;
+  background-image: linear-gradient(
+    135deg,
+    #406563 0%,
+    #638885 24%,
+    #abb3b3 66%,
+    #ffffff 100%
+  );
 }
 
-
-h1{
-    color:#313030;
-}
-p{
-    color:#446474;
-}
-h2{
-    color:#4F6367;
-    background:#CFDBD5;
-}
-h4{
-    color:#3C493F;
-}
-.crayola-header{
-    color:#1F363D;
-}
-#top{
-    background:#93A8AC;
+section {
+  background: #eceaea;
 }
 
-a{
-    color:#D3BCCC;
+h1 {
+  color: #313030;
+}
+p {
+  color: #446474;
+}
+h2 {
+  color: #4f6367;
+  background: #cfdbd5;
+}
+h4 {
+  color: #3c493f;
+}
+.crayola-header {
+  color: #1f363d;
+}
+#top {
+  background: #93a8ac;
+}
+
+a {
+  color: #d3bccc;
 }
 
 .header {
-    background:#8f8686;
-    min-height: 60px;
-    position: center;
-    top: 0;
-    width: 100%;
+  background: #8f8686;
+  min-height: 60px;
+  position: center;
+  top: 0;
+  width: 100%;
 }
 
 .header-link {
-    color:#B48291;
+  color: #b48291;
 }
-footer{
-    color:#576066;
-
+footer {
+  color: #576066;
 }
 .navigation {
-    padding: 16px;
-    display: none;
+  padding: 16px;
+  display: none;
 }
 
 .navigation--open {
-    display: block;
+  display: block;
 }
 
-.navigation_link{
-    color:#ffffff;
-    display: block;
-    margin: 0 0 16px;
+.navigation_link {
+  color: #ffffff;
+  display: block;
+  margin: 0 0 16px;
 }
 
-.navigation_link--homepage{
-    color:rgb(253, 191, 210);
+.navigation_link:hover {
+    color: #201c1c;
 }
 
-.main{
-   max-width: 1000px;
-   margin: 60px auto 0;
+.navigation_link:visited {
+    color: #e0d3d3;
+}
+
+.navigation_link:focus {
+   border: 3px solid pink;
+}  
+
+.navigation_link--homepage {
+  color: rgb(253, 191, 210);
+}
+
+.main {
+  max-width: 1000px;
+  margin: 60px auto 0;
 }
 .main_heading {
-    color:rgb(31, 54, 61);
-    align-content: center;
+  color: rgb(31, 54, 61);
+  align-content: center;
 }
 
 .about_heading {
-    color:#4F6367;
-    background:#CFDBD5;
+  color: #4f6367;
+  background: #cfdbd5;
 }
 
 .about_picture {
-    display: block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 .about_description {
-    color:#446474;
-    padding: 10px;
-    border: 1px;
+  color: #446474;
+  padding: 10px;
+  border: 1px;
 }
 .about_link {
-    color:#B48291;
+  color: #b48291;
 }
 
 .notes_heading {
-    color:#4F6367;
-    background:#CFDBD5;
+  color: #4f6367;
+  background: #cfdbd5;
 }
 
-.notes-creation{
-    padding: 10px;
-    border: 1px;
-    border-color: #162025;
-    border-style: dotted;
+.notes-creation {
+  padding: 10px;
+  border: 1px;
+  border-color: #162025;
+  border-style: dotted;
 }
-.notes-creation_title{
-    color:rgb(46, 83, 94);
+.notes-creation_title {
+  color: rgb(46, 83, 94);
 }
-.notes-creation_description{
-    color:#446474;
-}
-
-.weeks{
-    padding: 10px;
-}
-.weeks_title{
-    color:rgb(46, 83, 94);
-}
-.weeks_description{
-    color:#446474;
+.notes-creation_description {
+  color: #446474;
 }
 
-.footer{
-    max-width: 1000px;
-    margin: 0 auto;
+.weeks {
+  padding: 10px;
 }
-.footer_link{
-    color:#B48291;
-}
-
-.lesson_heading {
-    color:#4F6367;
-    background:#CFDBD5;
-}
-.lessson_description{
-    color:#446474;
+.weeks_title {
+  color: rgb(46, 83, 94);
 }
 
-.lesson-favorite_number {
-    color:rgb(46, 83, 94);
-}
-.lesson-favorite_description{
-    color:#446474;
-}
-
-.grid {
-    display: grid;
+.weeks_title::before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background: black;
+  border-radius: 50%;
 }
 
-.main_header { 
-    grid-column-start: 1;
-    grid-column-end: 3;
-    }
-
-.section {
-    grid-area: section;
+.weeks_title::after {
+  content: " ;)";
 }
 
-.aside {
-    grid-area: aside;
-    background:#eceaea;
-}
-
-.aside_description{
-    color:#446474;
-    padding: 10px;
-    border: 1px;
+.weeks_description {
+  color: #446474;
 }
 
 .footer {
-    grid-area: footer;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.footer_link {
+  color: #b48291;
+}
+
+.lesson_heading {
+  color: #4f6367;
+  background: #cfdbd5;
+}
+.lessson_description {
+  color: #446474;
+}
+
+.lesson-favorite_number {
+  color: rgb(46, 83, 94);
+}
+.lesson-favorite_description {
+  color: #446474;
+}
+
+.grid {
+  display: grid;
+}
+
+.main_header {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.section {
+  grid-area: section;
+}
+
+.aside {
+  grid-area: aside;
+  background: #eceaea;
+}
+
+.aside_description {
+  color: #446474;
+  padding: 10px;
+  border: 1px;
+}
+
+.footer {
+  grid-area: footer;
 }
 
 .menu {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    border: none;
-    background: #ffffff;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: none;
+  background: #ffffff;
 }
 
-@media screen and (min-width: 600px){
-    body {
-        background: #f5caca;
-        }
-    
-    .menu {
-        display: none;
-    }
+@media screen and (min-width: 600px) {
+  body {
+    background: #f5caca;
+  }
 
-    .main{
-            display:grid;
-            grid-template-areas: "header header"
-            "section aside"
-            "footer footer";
-            grid-template-columns: 1fr 300px;
-            column-gap: 16px;
-            row-gap: 16px;
-            grid-template-rows: 100px;
-            width: 770px;
-            margin: 16px auto
-    }
+  .menu {
+    display: none;
+  }
 
-    .navigation{
-        padding: 16px;
-        border-radius: 8px;
-        display: flex;
-        justify-content: space-between;
-        height: 100px;
-        align-items: center;
-    }
+  .main {
+    display: grid;
+    grid-template-areas:
+      "header header"
+      "section aside"
+      "footer footer";
+    grid-template-columns: 1fr 300px;
+    column-gap: 16px;
+    row-gap: 16px;
+    grid-template-rows: 100px;
+    width: 770px;
+    margin: 16px auto;
+  }
 
-    .footer {
-        background: #b4b8b9;
-    }
+  .navigation {
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+  }
 
+  .footer {
+    background: #b4b8b9;
+  }
 }
 
 @media screen and (min-width: 375px) {
-    .about_picture {
-        padding: 10px;
-        border: 1px;
-    }
+  .about_picture {
+    padding: 10px;
+    border: 1px;
+  }
 }
-    
-
-
-    
-
-
